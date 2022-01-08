@@ -1,9 +1,3 @@
-Backend API created in the language and framework covered in Unit 4
-
-
---Minimum 5 Components
-
---Have a Readme.md that details project planning (route tables, component tree, mockups) , challenges, technologies used, and any other relevant details
 
 
 Habit Tracker
@@ -43,4 +37,9 @@ Future Enhancements
 - [ ] Fix bug for Consecutive Completion Streak
 - [ ] Graphs showing Completed Days/Trends
 - [ ] More time styling
+
+Challenges
+- - - -
+*Styling
+*Deployment issues caused by last minute changes and bugs
 
