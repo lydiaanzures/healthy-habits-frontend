@@ -1,0 +1,310 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ */
+
+ @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* PAGES */
+.full-body{
+  background-color: #00b1bf;
+  height: 100vh
+}
+.intro{
+  color: #082341;
+  margin: 20px;
+  font-size: 2em
+}
+.title {
+  color: #082341;
+  font-size: 2em;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+}
+.main-para{
+  color: #082341;
+  font-size: 1.2em;
+  padding: 5px;
+  text-align: justify;
+}
+.single{
+  margin: 20px;
+  font-size: 1.7em;
+  color: #082341;
+}
+
+
+/* NAV */
+.nav-header {
+  background-color: #ff005d;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  filter: brightness(90%)
+}
+.title {
+  color: #fff;
+  font-size: 1.5em;
+  font-family: "Poppins", sans-serif;
+  margin-left: 5px;
+}
+
+/* BUTTON AND LINK */
+.button-style {
+  background-color: #082341;
+  color: #fff;
+  font-size: 1em;
+  margin: 5px;
+  padding: 5px;
+}
+.button-style:hover{
+  background-color: #ff005d;
+  color: #fff;
+}
+
+.link-style {
+  list-style: none;
+  margin-top: 10px;
+}
+.link-font {
+  color: #ff005d;
+  font-size: 40px;
+}
+.link-box {
+  margin-top: 50px;
+  text-align: center;
+}
+.special-delete{
+  background-color: #082341;
+  color: #fff;
+  margin: 7px;
+}
+/* IMAGES */
+.home-image{
+  display: block;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+
+}
+.status-image{
+  height: 100px;
+  width: 100%;
+  margin: 10px 0;
+  border: 3px solid #082341
+}
+
+/* MAP Styles */
+.goal{
+  color: #082341;
+  font-size: 29px;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+  text-align: center;
+  margin: 5px;
+}
+.goal:hover{
+  color: #ffbbd4;
+}
+
+.update{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 2em;
+  background-color: #ffbbd4;
+  padding: 10px;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid #082341
+}
+.update-box{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+/* FORM */
+.input-box{
+  text-align: center;
+}
+.input-style {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  padding: 7px;
+  width: 250px;
+  border-bottom: 1px solid #082341;
+  border-right: 1px solid #082341;
+  display: inline-block;
+}
+.form{
+  color: #fff;
+  font-size: 2em;
+}
+
+input[type="checkbox"]{
+  height: 30px;
+  filter: invert(90%) hue-rotate(300deg);
+}
+@media only screen and (min-width:360px){
+  .intro{
+    font-size: 1.2em;
+  }
+  .home-image{
+    width: 100%;
+  }
+  .form{
+    font-size:1.5em;
+  }
+  .single{
+    font-size: 1.8em;
+  }
+  .update{
+    font-size: 1em;
+  }
+
+
+}
+@media only screen and (min-width: 486px){
+  .main-para{
+      text-align: center;
+      font-size: 1.8em;
+    }
+    .all-button{
+      display: block;
+      margin: 0 auto;
+      margin-top: 5px;
+    }
+    .form{
+      font-size:1.5em;
+    }
+    .single{
+      text-align: center;
+    }
+    .update{
+      font-size: 1em;
+    }
+  }
+
+@media only screen and (min-width: 768px){
+  .caroStyle {
+    width: 60%;
+    margin: 10px auto;
+  }
+  .title{
+    font-size: 2.5em;
+  }
+  .home-image{
+    width: 50%
+  }
+  .all-button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+  .main-para{
+    text-align: center;
+    font-size: 1.8em;
+  }
+  .single{
+    text-align: center;
+  }
+  .update{
+    font-size: 1.3em;
+    flex-direction: row;
+  }
+  .status-image{
+    width: 98%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 992px){
+  .caroStyle {
+    width: 50%;
+    margin: 10px auto;
+  }
+  .title{
+    font-size: 2.5em;
+  }
+  .home-image{
+    width: 70%;
+    margin-top: 100px;
+    height: 300px;
+  }
+  .all-button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+  .main-para{
+    text-align: center;
+    font-size: 1.8em;
+  }
+  .single{
+    text-align: center;
+  }
+  .update{
+    font-size: 1.3em;
+    flex-direction: row;
+  }
+  .status-image{
+    width: 99%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+  }
+
+} 
+@media only screen and (min-width: 1200px){
+  .caroStyle {
+    width: 40%;
+    margin: 10px auto;
+  }
+  .title{
+    font-size: 2.5em;
+  }
+  .home-image{
+    width: 70%;
+    margin-top: 8px;
+    height: 300px;
+
+  }
+  .button-style{
+    font-size: 1.2em;
+  }
+  .main-para{
+    text-align: center;
+    font-size: 1.8em;
+  }
+  .all-button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+  .update{
+    font-size: 1.3em;
+    flex-direction: row;
+  }
+  .status-image{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+}
+
